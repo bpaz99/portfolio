@@ -64,3 +64,17 @@
     @apply bg-background text-foreground;
   }
 }
+.clip-path-mountain {
+  clip-path: polygon(
+    0% 0%, 
+    0% 100%, 
+    100% 100%, 
+    100% 0%,
+    100% 45%,
+    80% 20%,
+    60% 45%,
+    40% 25%,
+    20% 48%,
+    0% 30%
+  );
+}

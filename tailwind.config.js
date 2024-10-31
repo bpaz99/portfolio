@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
     darkMode: ["class"],
     content: [
 	"./index.html",
@@ -7,6 +7,9 @@ export default {
   ],
   theme: {
   	extend: {
+		screens: {
+			'xs': '510px',
+		},
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
@@ -53,7 +56,16 @@ export default {
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
   			}
-  		}
+  		},
+  		animation: {
+  			'twinkle': 'twinkle 3s ease-in-out infinite',
+  		},
+  		keyframes: {
+  			twinkle: {
+  				'0%, 100%': { opacity: 0.2 },
+  				'50%': { opacity: 0.8 },
+  			},
+  		},
   	}
   },
   plugins: [require("tailwindcss-animate")],
