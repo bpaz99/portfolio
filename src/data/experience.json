@@ -1,0 +1,138 @@
+[
+	{
+		"id": 1,
+		"company": "Abbareal",
+		"position": "Lead engineer",
+		"time": "2024 - Present",
+		"type": "Fulltime",
+		"bulletPoints": [
+			{
+				"text": "Architected and led the development of a platform utilized by 800+ users, implementing key features such as",
+				"subPoints": [
+					"CRM system",
+					"Multi-type wallet system for financial transactions",	
+					"Affiliate marketing framework",
+					"Payment integration with user wallets",
+					"Commission and earnings calculation systems",
+					"Integration with external stores"
+				]
+			},
+			"Collaborated with cross-functional teams to implement new features and improve user experience.",
+			"Optimized application performance and ensured cross-browser compatibility.",
+			"Implemented and maintained RESTful APIs using Node.js and Express."
+		],
+		"techStack": [
+			"React",
+			"PostgreSQL",
+			"Node.js",
+			"Express",
+			"Tailwind CSS",
+			"SCSS",
+			"TypeScript",
+			"MongoDB",
+			"Docker",
+			"Kubernetes",
+			"ECR",
+			"ECS",
+			"RDS",
+			"S3",
+			"ALB",
+			"EC2",
+			"Docker",
+			"Microservices"
+		]
+	},
+	{
+		"id": 2,
+		"company": "Pickzen",
+		"position": "Software Engineer",
+		"time": "January 2024 - October 2024",
+		"type": "Temporary",
+		"bulletPoints": [
+			"Led cost-saving initiatives by migrating MySQL 5.7 to MySQL 8 on AWS RDS, resulting in a 20% reduction in costs.",
+			"Updated deployment pipelines to support blue/green deployments, ensuring zero downtime during updates.",
+			"Resolved legacy bugs affecting client operations and improved environment setups.",
+			"Managed development cycles and deployment processes for new features."
+		],
+		"techStack": [
+			"Spring Boot",
+			"Angular",
+			"MySQL",
+			"Docker",
+			"ECR",
+			"ECS",
+			"S3",
+			"RDS",
+			"ALB/ELB",
+			"Route 53",
+			"SQS",
+			"SNS",
+			"Lambda",
+			"CloudWatch",
+			"CodePipeline",
+			"CodeDeploy",
+			"Microservices"
+		]
+	},
+	{
+		"id": 3,
+		"company": "Schedule Desk",
+		"position": "Contract Software Developer",
+		"time": "January 2021 (2 months)",
+		"type": "Contract",
+		"bulletPoints": [
+			"Built an admin dashboard and executed SQL migrations and triggers using Vue.js"
+		],
+		"techStack": [
+			"Vue.js",
+			"Knex.js",
+			"Node.js"
+		]
+	},
+	{
+		"id": 4,
+		"company": "Freelance Software Developer",
+		"time": "2018 - Present",
+		"type": "Freelance",
+		"bulletPoints": [
+			{
+				"text": "Neo Quiz (July 2024 - October 2024)",
+				"subPoints": [
+					"Architected a microservice-based lead capture application.",
+					"Managed a team of developers to deliver a scalable web builder solution, enabling users to create customizable forms using React and Tailwind CSS."
+				]
+			},
+			{
+				"text": "Olimpipedia (Summer 2021)",
+				"subPoints": [
+					"Developed a platform enabling 5,000+ users to track and follow their favorite Spanish athletes during the Tokyo Olympic Games, facilitating over 50,000 interactions."
+				]
+			},
+			{
+				"text": "PZ (2020 - 2021)",
+				"subPoints": [
+					"Created reusable components for forms and quizzes, deployed on client websites with an estimated 5 million views."
+				]
+			},
+			{
+				"text": "Portfolio(s)",
+				"subPoints": [
+					"Created multiple portfolio websites for clients, showcasing their work and services."
+				]
+			},
+			{
+				"text": "Shopify website(s)",
+				"subPoints": [
+					"Created multiple Shopify websites for clients, integrating payment gateways and customizing themes."
+				]
+			},
+			{
+				"text": "Automation/Engineering",
+				"subPoints": [
+					"Automated tasks for multiple clients using multiple languages",
+					"Clients include multiple \"Afiliate Marketing\" companies multiple Real State agencies such as Tecnocasa"
+				]
+			}
+		]
+	}
+]
